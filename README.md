@@ -1,13 +1,15 @@
-React-Simple-Unit-Test
+React-Jasmine-Unit-Test
 ======================
 
 ```bash
+    
   
-  
-$ npm install && npm run test-build
+$ npm install && npm test
   
   
 ```
 
 
-Now open __test/index.html__ and see it work!
+Now open [localhost:8080](http://localhost:8080/) and see it work!
+
+Webpack Dev Server will watch your files and re-compile automatically.

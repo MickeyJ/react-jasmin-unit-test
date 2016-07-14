@@ -4,10 +4,11 @@ const config = {
   entry: './test/ArtistSpec',
   output: {
     path: './test',
-    filename: 'spec.js',
-    publicPath: '/test/'
+    filename: 'spec.js'
   },
-  
+  devServer: {
+    contentBase: './test',
+  },
   module: {
     loaders: [
       {

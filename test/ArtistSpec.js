@@ -7,10 +7,10 @@ describe('Artist', () =>{
   let component;
 
   beforeEach(() =>{
-    component  = TestUtils.renderIntoDocument(<Artist name="Run the Jewels"/>);
+    component  = TestUtils.renderIntoDocument(<Artist name="Some Band"/>);
   });
 
   it('should display the correct artist name', () =>{
-    expect(findDOMNode(component).innerText).toMatch(/Artist name: Run the Jewels/)
+    expect(findDOMNode(component).innerText).toMatch(/Artist name: Some Band/)
   })
 });

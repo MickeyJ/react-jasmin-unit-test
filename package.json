@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-build": "./node_modules/.bin/webpack"
+    "test": "node_modules/.bin/webpack-dev-server"
   },
   "keywords": [],
   "author": "",
